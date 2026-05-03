@@ -150,6 +150,7 @@
             this.Controls.Add(this.grpPath);
             this.Name = "frmWAVPlayer";
             this.Text = "WAV音效撥放器";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmWAVPlayer_FormClosing);
             this.grpPath.ResumeLayout(false);
             this.grpPath.PerformLayout();
             this.grpButton.ResumeLayout(false);
